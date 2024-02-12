@@ -1,0 +1,9 @@
+{
+    "BOT_URL": "http://3.7.151.40/chat/index.html",
+    "web_uid" : "6bf0bf3f-c453-4d0b-ab4a-3955720f8330",
+    "bot_name":"TIGER_BOT",
+    "AGENT_INSTALL_PATH_WINDOW": "C:/Program Files (x86)/Kaseya/HTMC0114166534657264/KaseyaD.ini",
+    "AGENT_INSTALL_PATH_LUNIX": "/opt/Kaseya/MCRCL706129305584608/etc/KaseyaD.ini",
+    "AGENT_INSTALL_PATH_MAC": "/Library/Preferences/KaseyaD.ini"
+}
+

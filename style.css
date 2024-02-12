@@ -1,0 +1,42 @@
+/* Style the window controls */
+.window-controls {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #312E2D;
+    display: flex;
+    width:100%;
+    height: 40px;
+    /* color: #ffffff; */
+    /* z-index:1; */
+    /* float: right; 312E2D */
+  }
+  
+  .window-controls button {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+.bottitle{
+  color: #ffffff !important;
+  text-align: center;
+  margin-top:9px;
+  font-weight: 100;
+  /* font-family: 'Times New Roman', Times, serif; */
+}
+#icons{
+    margin-left: 2px;
+}
+#minimize{margin-top: -5px;}
+#controls{
+    margin-left:57%;
+}
+  /* Style the app content */
+  .app-content {
+    height: inherit;
+  }
+  

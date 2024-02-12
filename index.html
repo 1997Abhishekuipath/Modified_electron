@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+  <head>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+  <body style="height: 100%; overflow: hidden; margin: 0px">
+    <div class="window-controls">
+      <span id="icons">
+        <img src="./assets/icons/tigerbotIcon.ico" />
+        
+      </span>
+      &nbsp;
+      <span class="bottitle">Tiger</span>&nbsp;<span class="bottitle">Bot</span>
+      <span id="controls">
+        <button id="minimize">-</button>
+        <!-- <button id="maximize"></button> -->
+        <button id="close">✕</button>
+      </span>
+    </div>
+    <div class="app-content">
+      <webview
+        id="myweb"
+        preload="./renderer.js"
+        style="height: 100%; padding: 0%"
+      >
+      </webview>
+    </div>
+  </body>
+  <script src="renderer.js"></script>
+  <script src="./app.js"></script>
+
+  <script>
+    var webview = document.getElementById("app-content");
+
+    // webview.addEventListener('dom-ready', function () {
+    //   // webview.getElementsByClassName("chat-box-header").innerText = "New Bot"
+    //     webview.insertCSS(`
+    //     .btn{background-color: #2d2d2d !important;
+    //       width: 190px !important;}
+    //     .logo{
+    //       width: 47px !important;
+    //       height: 40px !important;
+    //       margin-left: 5px !important;
+    //       padding: 1px !important;
+    //     }
+    //      `)
+    // });
+  </script>
+</html>
